@@ -1,9 +1,3 @@
-:root{
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Roboto Slab', serif;
-}
-
 body{
     font-family:'Roboto Mono', monospace;
     margin: 0;
@@ -79,43 +73,18 @@ header .icons span{
 
  }
 /* <!--Aqui termina el header-->  */
-
-/* Aqui comienza el main  */
-
-.home-main{
+/* Comienza Main Blogs */
+.blogs-main{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    height: 100%;
-    background-image: url("../src/img/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.home-main section{
+.blogs-newest-container{
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
+#blogs-main-new{
     display: grid;
-    grid-column: 2;
-    justify-items: center;
-    height: 350px;
-    margin-top:80px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
 }
-
-.home-main-text{
-    font-family:'Roboto Mono', monospace;
-    font-size: 30px;
-    font-weight: 700px;
-    letter-spacing: 10px;
-    text-align: center;
-    color: white;
-}
-.home-main-button{
-    width: 110px;
-    height: 50px;
-    background-color: lightblue;
-    display: grid;
-    align-items: center;
-}
-.home-main-button a{
-    font-weight: 700;
-    font-size: 18px;
-}
+.b
