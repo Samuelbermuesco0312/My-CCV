@@ -8,13 +8,6 @@ a{
     display: inline;
     color: black;
 }
-.home-body{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 header{
     width: 100%;
     height: 120px;
@@ -106,6 +99,8 @@ header .icons span{
     border: 1px solid #47cfac;
     padding-bottom: 20px;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 12px;
 }
 /* Otros post */
@@ -117,3 +112,34 @@ header .icons span{
     padding-bottom: 20px;
     text-align: center;
 }
+
+
+
+.blogs-posts-container .post-container{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+.blogs-posts-container .post-container p {
+    margin-bottom: 35px;
+
+}
+.blogs-posts-container .post-container img{
+    width: 100%;
+}
+
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+    border-top: 35px solid #47cfac;
+}
+footer p {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
